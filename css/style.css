@@ -26,16 +26,12 @@
     box-sizing: border-box;
     padding: 0;
 }
-.container
-{
-    width: 1140px;
-    margin: 0 auto;
-}
+
 
 .intro
 {
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     background: url('../img/Layer\ 33.jpg')  center center/cover no-repeat ;
     text-align: center;
     
@@ -91,7 +87,8 @@ font-size: 41px;
 }
 .intro .more
 {
-    margin-top: 150px;
+    margin-top: 110px;
+    padding-bottom: 30px;
 }
 .more  h6
 {
@@ -127,8 +124,7 @@ font-size: 41px;
 .second .blocks 
 {
     margin-top: 30px;
-    display: flex;
-    justify-content:space-between;
+   
    
 }
 
@@ -152,11 +148,12 @@ font-size: 41px;
 .third img
 {
   
-    position:absolute;
    
-    left: 280px;
-    top: 50px;
-    z-index: -1 ;
+    top: 24px;
+    left:244px;
+    position: absolute;
+
+   z-index: -1;
    
 }
 .third h1
@@ -164,29 +161,27 @@ font-size: 41px;
     font-size: 30px;
     color: #299cbd;
     font-weight: bold;
-    position: absolute;
-    right: 220px;
-    top: 120px;
+   
     text-align: left;
     font-family: 'Roboto-Bold';
 }
 
 .third .text
 {
-   
-    top:200px;
+    margin-top: 48px;
+    margin-left: 629px;
     text-align: left;
     width: 700px;
-    position: absolute;
-    right: 142px;
-    font-size: 17px;
+    display: inline-block;
+    font-size: 18px;
     font-family: 'Roboto-Thin';
 }
 .forth
 {
    
     min-height: 400px;
-    background:url('../img/Layer\ 2.jpg');
+    background:url('../img/Layer\ 2.jpg') no-repeat;
+    background-size: cover;
     
 }
 .forth .endofcourse
@@ -203,8 +198,7 @@ font-size: 41px;
 .forth .endofcourse .blocks
 {
     margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
+   
    
 }
 .forth .endofcourse .blocks h6
@@ -312,4 +306,73 @@ footer .contact a
 }
 
 
-
+@media only screen and (max-width: 1025px) {
+    .third img
+    {
+        position: relative;
+        left: 0;
+        width: 300px;
+    }
+    .third .text
+    {
+        margin-left: 0;
+        width: 300px;
+        position: relative;
+    }
+  }
+  @media only screen and (max-width: 961px) {
+    .third img
+    {
+        position: relative;
+        left: 0;
+        width: 600px;
+    }
+    .third .text
+    {
+        margin-left: 0;
+        width: 500px;
+        position: relative;
+    }
+  }
+  @media only screen and (max-width: 642px) {
+    .third img
+    {
+        position: relative;
+        margin-left: -50px;
+        width: 600px;
+    }
+    .third .text
+    {
+        margin-left: 0;
+        width: 500px;
+        position: relative;
+    }
+  }
+  @media only screen and (max-width: 412px) {
+    .third img
+    {
+        position: relative;
+        margin-left: -50px;
+        width: 400px;
+    }
+    .third .text
+    {
+        margin-left: 0;
+        width: 350px;
+        position: relative;
+    }
+  }
+  @media only screen and (max-width: 362px) {
+    .third img
+    {
+        position: relative;
+        margin-left: -50px;
+        width: 300px;
+    }
+    .third .text
+    {
+        margin-left: 0;
+        width: 300px;
+        position: relative;
+    }
+  }
