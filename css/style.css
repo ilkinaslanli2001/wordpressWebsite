@@ -19,12 +19,16 @@
 }
 
 
-
+body
+{
+    overflow-x: hidden;
+}
 *
 {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0;
+   
 }
 
 
@@ -347,6 +351,24 @@ footer .contact a
         width: 500px;
         position: relative;
     }
+    .endofcourse .blocks .block h6
+    {
+        font-size:26px ;
+     
+    }
+  }
+  @media only screen and (max-width: 739px) {
+    .third .text {
+     font-size: 24px;
+    }
+  }
+  @media only screen and (max-width: 672px) {
+    .second .blocks .block p {
+        font-size: 18px;
+    }
+    .third .text {
+        font-size: 23px;
+    }
   }
   @media only screen and (max-width: 642px) {
     .third img
@@ -362,6 +384,30 @@ footer .contact a
         position: relative;
     }
   }
+  @media only screen and (max-width: 604px) {
+    .intro .info p
+    {
+        font-size: 23px;
+    }
+    .third img
+    {
+        position: relative;
+        margin-left: -50px;
+        width: 600px;
+    }
+    .third .text
+    {
+        margin-left: 0;
+        width: 500px;
+        position: relative;
+    }
+    .endofcourse .blocks .block h6
+    {
+        font-size:21px ;
+    
+    
+   }
+}
   @media only screen and (max-width: 412px) {
     .third img
     {
@@ -373,6 +419,21 @@ footer .contact a
     {
         margin-left: 0;
         width: 350px;
+        position: relative;
+    }
+  }
+
+  @media only screen and (max-width: 377px){
+  
+    .third img {
+        position: relative;
+        margin-left: -50px;
+        width: 423px;
+    }
+    .third .text {
+        margin-left: 0;
+        width: 357px;
+        font-size: 26px;
         position: relative;
     }
   }
@@ -389,4 +450,39 @@ footer .contact a
         width: 300px;
         position: relative;
     }
+    .intro .info h1
+    {
+        font-size: 70px;
+    }
   }
+  @media only screen and (max-width: 322px) {
+      .expectations img
+      {
+        width: 217px;
+      }
+      .second .blocks .block p
+      {
+        font-size: 17px;
+        margin-top: 30px;
+        width: 276px;
+        font-family: 'Roboto-Medium';
+      }
+      .startinfo img
+      {
+          width:283px;
+      }
+  }
+  @media only screen and (max-width: 415px) {
+    .third img {
+        position: relative;
+        margin-left: -50px;
+        width: 452px;
+    }
+    .third .text {
+        margin-left: 0;
+        width: 400px;
+        font-size: 26px;
+        position: relative;
+    }
+
+}
