@@ -305,7 +305,20 @@ footer .contact a
    
 }
 
-
+@media only screen and (max-width: 1368px) {
+    .third img
+    {
+        top: 24px;
+        left:80px;
+    }
+    .third .text
+    {
+        margin-left: 529px;
+        font-size: 17px;
+        position: relative;
+        margin-top: 104px;
+    }
+  }
 @media only screen and (max-width: 1025px) {
     .third img
     {
@@ -320,6 +333,7 @@ footer .contact a
         position: relative;
     }
   }
+ 
   @media only screen and (max-width: 961px) {
     .third img
     {
