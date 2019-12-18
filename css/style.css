@@ -64,6 +64,30 @@ font-size: 41px;
     font-size: 80px;
 }
 
+.intro .info::before
+{
+    left: 382px;
+    display: block;
+    content: '';
+    width: 284px;
+    height: 2px;
+    position: absolute;
+    background-color: #ffff;
+    top: 270px;
+}
+.intro .info::after
+{
+    right: 382px;
+    display: block;
+    content: '';
+    width: 284px;
+    height: 2px;
+    position: absolute;
+    background-color: #ffff;
+    top: 270px;
+}
+
+
 .intro .info p
 {
     font-size: 21px;
